@@ -16,7 +16,7 @@
 <li><b>CallbackUrl:</b> Specifies which Url the purchase result will be sent to after the purchase completed.</li>
 <li><b>LogEnabled:</b> Determines whether the purchase log is enabled.</li>
 
-After your made desired changes, click the <b>Update Files & manifest</b> button to apply the required changes and activate the plugin.
+<p>After your made desired changes, click the <b>Update Files & manifest</b> button to apply the required changes and activate the plugin.</p>
 
 <h4>API Usage :</h4>
 
