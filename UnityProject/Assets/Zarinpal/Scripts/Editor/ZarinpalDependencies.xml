@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--DONT MODIFY HERE. AUTO GENERATED DEPENDENCIES FROM NPAndroidLibraryDependencies.cs.-->
+<dependencies>
+	<androidPackages>
+		<androidPackage
+			spec="androidx.constraintlayout:constraintlayout:1.0.0+" />
+    <androidPackage
+      spec="androidx.constraintlayout:constraintlayout-solver:1.0.0+" />
+		<androidPackage
+			spec="com.android.volley:volley:1.0.0+" />
+  </androidPackages>
+</dependencies>
