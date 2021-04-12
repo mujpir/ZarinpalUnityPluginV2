@@ -45,7 +45,7 @@ Here is method you need to Initialize plugin in your code and do a purchase:
 </ol>
 For further reading please refer to <b>ZarinpalExample.cs</b> in your unity projects.
 
-<h5>Advanced Setting:</h5>
+<h4>Advanced Setting:</h4>
 
 As mentioned, ZarinPal plugin for Unity allows you to configure your product list in Unity to make a purchase using  productID, but the disadvantage of this is that the product list and its details are on the client side. Therfore the possibility of updating products without uploading a new binary to market is impossible. The solution for this is that you can create a class from the <code>IzarinpalQueryProvider</code> interface and implement two methods, <code>QuerySkuDetail</code> and <code>QueryPurchases</code> . You can implement a new calss to retrieve products from your server. After implemention this class, you must call the <code>Zarinpal.SetQueryProvider</code> method before calling the Initialize method and send an instance of the <code>IzarinpalQueryProvider</code> class to it as a parameter.
 
