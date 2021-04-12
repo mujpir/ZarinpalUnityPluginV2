@@ -7,6 +7,7 @@
 <li>Then select the settings option from  Zarinpal/Setting menu and make the required settings for the plugin:</li>
 </ol>
 
+<ul>
 <li><b>Enable:</b> Determines whether the plugin is enabled. If enabled ,  the required files will be imported and required changes will be reflected in the AndroidManifest file.</li>
 <li><b>MerchantID:</b> The merchant code you received from ZarinPal.</li>
 <li><b>Auto Verify Purchase:</b> Determines whether to verify payment immediately after successful purchase. If it is disabled, you need to call Zarinpal.VerifyPayment() method to check the validation of a payament.</li>
@@ -15,6 +16,7 @@
 <li><b>Use Scheme & Host as Callback:</b> Determines whether to use a combination of Scheme and Host as Callback. CallbackUrl must be specified by you if it is disabled.</li>
 <li><b>CallbackUrl:</b> Specifies which Url the purchase result will be sent to after the purchase completed.</li>
 <li><b>LogEnabled:</b> Determines whether the purchase log is enabled.</li>
+ </ul>
 
 <p>After your made desired changes, click the <b>Update Files & manifest</b> button to apply the required changes and activate the plugin.</p>
 
